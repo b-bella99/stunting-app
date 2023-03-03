@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Stunting App</string>
+    <string name="GMHS">Gerakan Masyarakat Hidup Sehat</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="stunting_app">Stunting App</string>
+    <string name="register_sekarang">Register sekarang!</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="nama">Nama</string>
+</resources>
