@@ -16,9 +16,16 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <ListView
+            <TextView
+                android:id="@+id/txtNutriBayi"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="wrap_content"
+                android:text="Bayi Umur 0 bulan - 6 Bulan"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+                android:background="@color/light_yellow"/>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

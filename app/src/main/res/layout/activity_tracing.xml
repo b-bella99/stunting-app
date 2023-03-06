@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".TracingActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/light_yellow"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Tracing Stunting"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:text="Berikut prevalensi balita stunting di Indonesia berdasarkan provinsi pada 2022:"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:text="
+        1. Nusa Tenggara Timur: 35,3%\n
+        2. Sulawesi Barat: 35%\n
+        3.Papua: 34,6% \n
+        4. Nusa Tenggara Barat: 32,7%\n
+        5. Aceh: 31,2%\n
+        6. Papua Barat: 30%\n
+        7. Sulawesi Tengah: 28,2%\n
+        8. Kalimantan Barat: 27,8%\n
+        9. Sulawesi Tenggara: 27,7%\n
+        10. Sulawesi Selatan: 27,2%\n
+        11. Kalimantan Tengah: 26,9%\n
+        12. Maluku Utara: 26,1%\n
+        13. Maluku: 26,1%\n
+        14.Sumatera Barat: 25,2%\n
+        15. Kalimantan Selatan: 24,6%\n
+        16. Kalimantan Timur: 23,9%\n
+        17. Gorontalo: 23,8%\n
+        18. Kalimantan Utara: 22,1%\n
+        19. Sumatera Utara: 21,1%\n
+        20. Jawa Tengah: 20,8%\n
+        21. Sulawesi Utara: 20,5%\n
+        22. Jawa Barat: 20,2%\n
+        23. Banten: 20%\n
+        24. Bengkulu: 19,8%\n
+        25. Jawa Timur: 19,2%\n
+        26. Sumatera Selatan: 18,6%\n
+        27. Kep Bangka Belitung: 18,5%\n
+        28. Jambi: 18%\n
+        29. Riau: 17%\n
+        30. DI Yogyakarta: 16,4%\n
+        31. Kepulauan Riau: 15,4%\n
+        32. Lampung: 15,2%\n
+        33. DKI Jakarta: 14,8%\n
+        34. Bali: 8%"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

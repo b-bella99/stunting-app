@@ -23,31 +23,34 @@
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
                 android:layout_height="179dp"
-                android:layout_marginTop="50dp"
                 android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginRight="30dp"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/berita" />
 
             <TextView
                 android:id="@+id/txtJudulDetail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Judul Berita"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="30dp"
+                android:text="POSYANDU 2 PACAR KEMBANG SURABAYA JADI PERCONTOHAN PENURUNAN STUNTING TINGKAT NASIONAL"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtContentDetail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="30dp"
-                android:text="Detail Berita" />
+                android:text="\tPemerintah Kota (Pemkot) Surabaya bersama Ketua Tim Penggerak (TP) PKK Kota Surabaya Rini Indriyani berkomitmen untuk fokus memprioritaskan upaya penanganan dan pencegahan indikasi balita stunting di Kota Pahlawan. Salah satunya adalah keberhasilan Posyandu 2 RW 06 Kelurahan Pacar Kembang, Jalan Pacar Kembang 2 No 66-68 Kota Surabaya yang mampu menjadi percontohan dalam penurunan angka stunting di tingkat nasional.
+                \n\n\tKarenanya, dalam upaya mendeteksi indikasi balita stunting di Kota Pahlawan, Pemkot Surabaya bersama Ketua TP PKK Rini Indriyani mengikuti “Dialog Interaktif Dalam Rangka Pelaksanaan Gerakan Penimbangan Bulanan Nasional Terintegrasi untuk Pencegahan Stunting” bersama Menteri Kesehatan (Menkes) RI Budi Gunadi Sadikin, Menteri Dalam Negeri (Mendagri) RI Muhammad Tito Karnavian, dan Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan (Menko PMK) RI Muhadjir Effendy, Selasa (28/2/2023)."
+                android:textColor="@color/black" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

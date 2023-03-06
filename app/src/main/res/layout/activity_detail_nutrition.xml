@@ -28,6 +28,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Bayi  / Anak"
+                    android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
 
@@ -36,8 +37,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Umur"
+                    android:text="Umur 0 bulan - 6 bulan"
                     android:textAlignment="textEnd"
+                    android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -52,6 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Vitamin A"
+                    android:textColor="@color/black"
                     android:textSize="13dp"
                     android:textStyle="bold" />
 
@@ -62,6 +65,7 @@
                     android:layout_weight="1"
                     android:text="375mg"
                     android:textAlignment="textEnd"
+                    android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -75,6 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Vitamin B"
+                    android:textColor="@color/black"
                     android:textSize="13dp"
                     android:textStyle="bold" />
 
@@ -85,6 +90,7 @@
                     android:layout_weight="1"
                     android:text="10mg"
                     android:textAlignment="textEnd"
+                    android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -99,6 +105,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Vitamin C"
+                    android:textColor="@color/black"
                     android:textSize="13dp"
                     android:textStyle="bold" />
 
@@ -109,6 +116,7 @@
                     android:layout_weight="1"
                     android:text="5mg"
                     android:textAlignment="textEnd"
+                    android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -123,6 +131,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Vitamin E"
+                    android:textColor="@color/black"
                     android:textSize="13dp"
                     android:textStyle="bold" />
 
@@ -133,6 +142,7 @@
                     android:layout_weight="1"
                     android:text="4mg"
                     android:textAlignment="textEnd"
+                    android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -147,6 +157,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Vitamin K"
+                    android:textColor="@color/black"
                     android:textSize="13dp"
                     android:textStyle="bold" />
 
@@ -157,6 +168,7 @@
                     android:layout_weight="1"
                     android:text="5mg"
                     android:textAlignment="textEnd"
+                    android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>

@@ -52,7 +52,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:gravity="center"
-                        android:text="Trancing\nStunting"
+                        android:text="Tracing\nStunting"
                         android:textColor="#15C297"
                         android:textStyle="bold" />
 
@@ -178,7 +178,7 @@
                         android:layout_marginLeft="30dp"
                         android:gravity="center"
                         android:text="Sehat\nStunting"
-                        android:textColor="#15C297"
+                        android:textColor="@color/gray"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -267,7 +267,7 @@
                         android:layout_marginLeft="30dp"
                         android:gravity="center"
                         android:text="Food Help"
-                        android:textColor="@color/gray"
+                        android:textColor="#15C297"
                         android:textStyle="bold" />
 
                 </LinearLayout>
