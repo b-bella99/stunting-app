@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StuntingApp">
-        <activity android:name=".DetailNutritionActivity"></activity>
+        <activity android:name=".TracingActivity"></activity>
+        <activity android:name=".DetailFoodHelpActivity" />
+        <activity android:name=".FoodHelpActivity" />
+        <activity android:name=".DetailNutritionActivity" />
         <activity android:name=".NutritionActivity" />
         <activity android:name=".DetailInfoStuntingActivity" />
         <activity android:name=".InfoStuntingActivity" />
