@@ -70,11 +70,14 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (validate(email, pass)) {
                     if (db.checkUser(email, pass)) {
+                        Bundle bundle = getIntent().getExtras();
+                        String nama = bundle.getString("Nama");
                         Intent i = new Intent(LoginActivity.this, DashboardActivity.class);
-                        i.putExtra("Email: ", email.trim());
+                        i.putExtra("Email", email.trim());
+                        i.putExtra("Nama", nama);
                         startActivity(i);
                     } else {
-                        Toast.makeText(LoginActivity.this, "Email tidak terdaftar!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(LoginActivity.this, "Password salah!", Toast.LENGTH_LONG).show();
                     }
                 }
             }

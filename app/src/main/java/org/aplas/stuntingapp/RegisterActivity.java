@@ -63,7 +63,10 @@ public class RegisterActivity extends AppCompatActivity {
 
                     dbHelper.addUser(user);
                     Toast.makeText(getApplicationContext(), "Registrasi berhasil!", Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+                    Intent i = new Intent(RegisterActivity.this, LoginActivity.class);
+                    i.putExtra("Nama", nama.trim());
+                    startActivity(i);
+//                    startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                 }
             }
         });

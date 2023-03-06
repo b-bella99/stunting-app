@@ -129,20 +129,23 @@ public class DBHelper extends SQLiteOpenHelper {
 //                new String[]{user.getEmail(), null, null, null, null, null})
 //    }
 
-//    public UserModels getContact(int id) {
-//        SQLiteDatabase db = this.getReadableDatabase();
-//
-//        Cursor cursor = db.query(TABLE_TALL, new String[] { KEY_ID,
-//                        KEY_NAME, KEY_TALL }, KEY_ID + "=?",
-//                new String[] { String.valueOf(id) }, null, null, null, null);
-//        if (cursor != null)
-//            cursor.moveToFirst();
-//
-//        UserModels contact = new UserModels(Integer.parseInt(cursor.getString(0)),
-//                cursor.getString(1), cursor.getString(2));
-//        // return contact
-//        return contact;
-//    }
+    public User getUser(String email) {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        Cursor cursor = db.query(TABLE_NAME, new String[] { COLUMN_USER_ID,
+                        COLUMN_USER_NAME, COLUMN_USER_ADDRESS, COLUMN_USER_TELEPHONE,
+                COLUMN_USER_EMAIL, COLUMN_USER_PASSWORD}, COLUMN_USER_EMAIL + "=?",
+                new String[] { String.valueOf(email) }, null, null, null, null);
+        if (cursor != null)
+            cursor.moveToFirst();
+
+        User user = new User(cursor.getString(0),
+        cursor.getString(1), cursor.getString(2), cursor.getString(3),
+                cursor.getString(4));
+        // return contact
+        return user;
+    }
+
 
     public Cursor getData() {
         SQLiteDatabase db = this.getWritableDatabase();
